@@ -47,8 +47,8 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 -V                                            show version number
 -h                                            display this help and exit
 ```
-
-```-r <.cram|.[bs]am|.db|.dam|.f[ast][aq][.gz]>``` inputting reads need to specify absolute path.
+> [!NOTE]
+> ```-r <.cram|.[bs]am|.db|.dam|.f[ast][aq][.gz]>``` inputting reads need to specify absolute path.
 
 ## Contact
 Other than raising issues in github, you can contact xingjianfeng100@126.com for specific issues.
