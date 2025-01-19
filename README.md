@@ -2,7 +2,7 @@
 LVgs is a novel strategy for estimating the **g**enome **s**ize robustly by plotting iteration of the large-scale estimates through continuous‌ ascent of K-mer length and searching the **L**imiting **V**alue of genome forecast with taking advantage of HiFi reads.
 
 ## Installation
-LVgs is shell-based and R-based scripts,which is compile-free.
+LVgs is shell-based and R-based scripts, which is compile-free.
 
 ### 1. Pre-requisites
 The following requirements are assumed to be installed (with path to their executables available in $PATH).
