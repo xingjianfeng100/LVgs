@@ -4,7 +4,7 @@ LVgs is a novel strategy for estimating the **g**enome **s**ize robustly by plot
 ## Installation
 LVgs is shell-based and R-based scripts,which is compile-free.
 
-### 1.Pre-requisites
+### 1. Pre-requisites
 The following requirements are assumed to be installed (with path to their executables available in $PATH).
 
 - [FastK](https://github.com/thegenemyers/FASTK)
@@ -12,7 +12,7 @@ The following requirements are assumed to be installed (with path to their execu
 - [HiFiasm](https://github.com/chhylp123/hifiasm)
 - [tseries](https://CRAN.R-project.org/package=tseries)
 
-### 2.Download
+### 2. Download
 ```
 git clone https://github.com/xingjianfeng100/LVgs.git
 cd LVgs
@@ -23,7 +23,7 @@ wget LVgs-***.tar.gz
 tar -xzvf  LVgs-***.tar.gz
 cd LVgs-*** 
 ```
-### 3.Set path to LVgs available in environment
+### 3. Set path to LVgs available in environment
 ```
 export PATH=$PWD:$PATH
 ```
@@ -44,7 +44,7 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 -W  <workpdir>                                directory to execute loop forecasts                                                    [default: none]
 -k <-v|-t|-p|-bc|-c>                          other options for FastK, details see https://github.com/thegenemyers/FASTK             [default: none]
 -g <-l|-m......>                              other options for GenomeScope2, details see https://github.com/tbenavi1/genomescope2.0 [default: none]
--V    show version number
+-V                                            show version number
 -h                                            display this help and exit
 ```
 
