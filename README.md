@@ -54,9 +54,9 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 ### Outputs
 
 ```console
-*.report				#Final evaluation report for LVgs
-*.stat.tab				#Forecasts statistics with multi-K
-*figure/				#Genome size (GS) curve as well as other seven auxiliary indicators, Forecasted by multi-K
+* *.report				#Final evaluation report for LVgs
+* *.stat.tab				#Forecasts statistics with multi-K
+* *figure/				#Genome size (GS) curve as well as other seven auxiliary indicators, Forecasted by multi-K
 	GS_linear_plot.pdf
 	kcov_plot.pdf
 	kmer_total_plot.pdf
