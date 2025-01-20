@@ -42,8 +42,8 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 -t  <INT>                                     the number of threads to use                                                           [default: 1]
 -M  <INT>                                     Use -M GB of memory in K-mer counting steps of FastK                                   [default: 12]
 -W  <workpdir>                                directory to execute loop forecasts                                                    [default: none]
--k <-v|-t|-p|-bc|-c>                          other options for FastK, details see https://github.com/thegenemyers/FASTK             [default: none]
--g <-l|-m......>                              other options for GenomeScope2, details see https://github.com/tbenavi1/genomescope2.0 [default: none]
+-k <"-v|-t|-p|-bc|-c">                        other options for FastK, details see https://github.com/thegenemyers/FASTK             [default: none]
+-g <"-l|-m......">                            other options for GenomeScope2, details see https://github.com/tbenavi1/genomescope2.0 [default: none]
 -V                                            show version number
 -h                                            display this help and exit
 ```
