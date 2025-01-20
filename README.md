@@ -81,7 +81,7 @@ wget  ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR234/030/SRR23497930/SRR23497930_subr
 ```
 ### Quick Start
 ```
-LVgs.sh -b 17 -e 77 -s 10 -r /absolute/path/SRR23497930_subreads.fastq.gz  -t 32 -W demo
+LVgs.sh -b 17 -e 77 -s 10 -r /absolute/path/SRR23497930_subreads.fastq.gz  -t 32 -c -W demo
 ```
 result files are stored in ```demo/```
 
