@@ -1,5 +1,5 @@
-# LVgs: A robust K-mer-based genome size evaluation pipeline
-LVgs is a novel strategy for estimating the **g**enome **s**ize robustly by plotting iteration of the large-scale estimates through continuous‌ ascent of K-mer length and searching the **L**imiting **V**alue of genome forecast with taking advantage of HiFi reads.
+# LVgs: A robust K-mer-based genome size evaluation pipeline for genus-level genomes
+LVgs is a novel strategy for estimating the genus-level **g**enome **s**izes robustly by plotting iteration of the large-scale estimates through continuous‌ ascent of K-mer length and searching the **L**imiting **V**alue of genome forecast with taking advantage of HiFi reads.
 
 ## Installation
 LVgs is shell-based and R-based scripts, which is compile-free.
