@@ -1,8 +1,8 @@
-# LVgs: A robust K-mer-based genome size evaluation pipeline for genus-level genomes
-LVgs is a novel strategy for estimating the genus-level **g**enome **s**izes robustly by plotting iteration of the large-scale estimates through continuous‌ ascent of K-mer length and searching the **L**imiting **V**alue of genome forecast with taking advantage of HiFi reads.
+# LVgs: A K-mer-based Pipeline for Robust Genome Size Estimation
+LVgs is a novel and robust strategy for estimating the genus-level **g**enome **s**izes by plotting iteration of the large-scale estimates through continuous‌ ascent of K-mer lengths, ultimately identifying the **L**imiting **V**alue of wholescale-K forecasts with the strategic utilization of HiFi reads.
 
 ## Installation
-LVgs is shell-based and R-based scripts, which is compile-free.
+LVgs is a lightweight, compile-free tool that combines shell scripting and R programming.
 
 ### 1. Pre-requisites
 The following requirements are assumed to be installed (with path to their executables available in $PATH).
@@ -90,7 +90,7 @@ result files are stored in ```demo/```
 Other than raising issues in github, you can contact xingjianfeng100@126.com for specific issues.
 
 ## Cite
-If you use our tools, please also cite these remarkable tools we have invoked in LVgs:
+If you use our tools in your work, we kindly ask that you also cite the following remarkable tools that have been integrated into LVgs:
 +    FastK: https://github.com/thegenemyers/FASTK
 +    GenomeScope2: Ranallo-Benavidez, T. R., Jaron, K. S. & Schatz, M. C. GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes. Nat. Commun. 11, doi:10.1038/s41467-020-14998-3 (2020)
 +    HiFiasm: Cheng, H., Asri, M., Lucas, J., Koren, S. & Li, H. Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph. Nat Methods 21, 967-970, doi:10.1038/s41592-024-02269-8 (2024).
