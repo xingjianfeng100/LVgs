@@ -16,14 +16,14 @@ for (i in 1:limi_loc){
 		if (j-i>3){
 			adf_res <- adf.test(kmer_info[i:j,2], k=0)
 			adf_res2 <- adf.test(kmer_info[j:i,2], k=0)
-			df[num,1]=i
-			df[num,2]=j
+			df[num,1]=kmer_info[i,1]
+			df[num,2]=kmer_info[j,1]
 			df[num,3]=adf_res$p.value
-			df[num,4]=j-i
-			df[num+1,1]=j
-			df[num+1,2]=i
+			df[num,4]=kmer_info[j,1]-kmer_info[i,1]
+			df[num+1,1]=kmer_info[j,1]
+			df[num+1,2]=kmer_info[i,1]
 			df[num+1,3]=adf_res2$p.value
-			df[num+1,4]=j-i
+			df[num+1,4]=kmer_info[j,1]-kmer_info[i,1]
 			num<-num+2			
 		}
 	}
