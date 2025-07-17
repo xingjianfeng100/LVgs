@@ -11,7 +11,7 @@ The following requirements are assumed to be installed (with path to their execu
 - [GenomeScope2](https://github.com/tbenavi1/genomescope2.0)
 - [HiFiasm](https://github.com/chhylp123/hifiasm)
 - [tseries](https://CRAN.R-project.org/package=tseries)
-- [KMC](http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=download,optional)
+- [KMC](http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=download)(optional)
 
 ### 2. Download
 ```
