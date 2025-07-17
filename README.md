@@ -11,6 +11,7 @@ The following requirements are assumed to be installed (with path to their execu
 - [GenomeScope2](https://github.com/tbenavi1/genomescope2.0)
 - [HiFiasm](https://github.com/chhylp123/hifiasm)
 - [tseries](https://CRAN.R-project.org/package=tseries)
+- [KMC](http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=download,optional)
 
 ### 2. Download
 ```
@@ -48,6 +49,7 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 -h                                            display this help and exit
 ```
 > [!NOTE]
+> *Please try to keep K as an odd number to avoid generating palindromes. palindromes are those where the forward and reverse complement sequences are identical.
 > * ```-r <.cram|.[bs]am|.db|.dam|.f[ast][aq][.gz]>``` inputting reads need to specify absolute path.
 > * Other options for FastK or GenomeScope2 should be enclosed in quotes, e.g., ```-k "-v -t4" -g "-m 1000000 --verbose"```.
 
@@ -83,6 +85,10 @@ wget  ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR234/030/SRR23497930/SRR23497930_subr
 ```
 LVgs.sh -b 17 -e 77 -s 10 -r /absolute/path/SRR23497930_subreads.fastq.gz  -t 32 -c -W demo
 ```
+or use KMC to count K-mer
+```
+LVgs_kmc.sh -b 17 -e 77 -s 10 -r /absolute/path/SRR23497930_subreads.fastq.gz  -t 32 -c -W demo
+```
 result files are stored in ```demo/```
 > [!NOTE]
 > multi-datasets should add double quote, such as ```-r "/absolute/path/*.fastq.gz"``` 
@@ -97,3 +103,4 @@ If you use our tools in your work, we kindly ask that you also cite the followin
 +    GenomeScope2: Ranallo-Benavidez, T. R., Jaron, K. S. & Schatz, M. C. GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes. Nat. Commun. 11, doi:10.1038/s41467-020-14998-3 (2020)
 +    HiFiasm: Cheng, H., Asri, M., Lucas, J., Koren, S. & Li, H. Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph. Nat Methods 21, 967-970, doi:10.1038/s41592-024-02269-8 (2024).
 +    tseries: Trapletti, A. & Hornik, K. tseries: Time Series Analysis and Computational Finance. (R package version 0.10-58: https://CRAN.R-project.org/package=tseries, 2024)
++    KMC: Marek Kokot, Maciej Długosz, Sebastian Deorowicz, KMC 3: counting and manipulating k-mer statistics, Bioinformatics, Volume 33, Issue 17, 01 September 2017, Pages 2759–2761, https://doi.org/10.1093/bioinformatics/btx304 
