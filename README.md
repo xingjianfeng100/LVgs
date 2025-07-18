@@ -49,7 +49,7 @@ Usage: 	LVgs.sh -b stat_k-mer_size -e end_k-mer_size -i step_size -r reads
 -h                                            display this help and exit
 ```
 > [!NOTE]
-> * Please try to keep K as an odd number to avoid generating palindromes. palindromes are those where the forward and reverse complement sequences are identical.
+> * Please try to keep K as an odd number to avoid generating palindromes. Palindromes are those where the forward and reverse complement sequences are identical.
 > * ```-r <.cram|.[bs]am|.db|.dam|.f[ast][aq][.gz]>``` inputting reads need to specify absolute path.
 > * Other options for FastK or GenomeScope2 should be enclosed in quotes, e.g., ```-k "-v -t4" -g "-m 1000000 --verbose"```.
 
