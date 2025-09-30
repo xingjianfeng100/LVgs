@@ -99,10 +99,10 @@ Other than raising issues in github, you can contact xingjianfeng100@126.com for
 
 ## Cite
 If you use our tools in your work, please cite:
-+    Xing, J., Hao, J., Tang, C. et al. A closed-loop method for precise genome size estimation using HiFi reads. BMC Genomics 26, 878 (2025). https://doi.org/10.1186/s12864-025-12031-9
++    Xing, J., Hao, J., Tang, C. et al. A closed-loop method for precise genome size estimation using HiFi reads. BMC Genomics 26, 878 (2025). https://doi.org/10.1186/s12864-025-12031-9.
 We kindly ask that you also cite the following remarkable tools that have been integrated into LVgs:
-+    FastK: https://github.com/thegenemyers/FASTK
-+    GenomeScope2: Ranallo-Benavidez, T. R., Jaron, K. S. & Schatz, M. C. GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes. Nat. Commun. 11, doi:10.1038/s41467-020-14998-3 (2020)
++    FastK: https://github.com/thegenemyers/FASTK.
++    GenomeScope2: Ranallo-Benavidez, T. R., Jaron, K. S. & Schatz, M. C. GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes. Nat. Commun. 11, doi:10.1038/s41467-020-14998-3 (2020).
 +    HiFiasm: Cheng, H., Asri, M., Lucas, J., Koren, S. & Li, H. Scalable telomere-to-telomere assembly for diploid and polyploid genomes with double graph. Nat Methods 21, 967-970, doi:10.1038/s41592-024-02269-8 (2024).
 +    tseries: Trapletti, A. & Hornik, K. tseries: Time Series Analysis and Computational Finance. (R package version 0.10-58: https://CRAN.R-project.org/package=tseries, 2024)
-+    KMC: Marek Kokot, Maciej Długosz, Sebastian Deorowicz, KMC 3: counting and manipulating k-mer statistics, Bioinformatics, Volume 33, Issue 17, 01 September 2017, Pages 2759–2761, https://doi.org/10.1093/bioinformatics/btx304 
++    KMC: Marek Kokot, Maciej Długosz, Sebastian Deorowicz, KMC 3: counting and manipulating k-mer statistics, Bioinformatics, Volume 33, Issue 17, 01 September 2017, Pages 2759–2761, https://doi.org/10.1093/bioinformatics/btx304. 
