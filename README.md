@@ -100,6 +100,7 @@ Other than raising issues in github, you can contact xingjianfeng100@126.com for
 ## Cite
 If you use our tools in your work, please cite:
 +    Xing, J., Hao, J., Tang, C. et al. A closed-loop method for precise genome size estimation using HiFi reads. BMC Genomics 26, 878 (2025). https://doi.org/10.1186/s12864-025-12031-9.
+
 We kindly ask that you also cite the following remarkable tools that have been integrated into LVgs:
 +    FastK: https://github.com/thegenemyers/FASTK.
 +    GenomeScope2: Ranallo-Benavidez, T. R., Jaron, K. S. & Schatz, M. C. GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes. Nat. Commun. 11, doi:10.1038/s41467-020-14998-3 (2020).
